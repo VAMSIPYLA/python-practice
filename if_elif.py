@@ -9,9 +9,9 @@ N = int(input())
 
 if N % 2 == 1:
     print("Weird")
-elif N % 2 == 0 and range(1, 6):
+elif N % 2 == 0 and N in range(1, 6):
     print("Not Weird")
-elif N % 2 == 0 and range(5, 21):
+elif N % 2 == 0 and N in range(5, 21):
     print("Weird")
 elif N % 2 == 0 and N >= 20:
     print("Not Weird")
